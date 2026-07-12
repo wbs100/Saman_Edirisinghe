@@ -20,5 +20,5 @@ Route::get('/profile', function () {
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
